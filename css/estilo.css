@@ -20,7 +20,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,234,1) 35%, rgb
 	width: 950px;
 	margin-left: auto;
 	margin-right: 10px;
-	margin-top: -120px;
+	margin-top: -300px;
 }
 
 #imagem-topo{
@@ -80,16 +80,7 @@ h2{
 	font-family: "Brush Script MT", "Brush Script Std", cursive;
 }
 
-.barra-lateral{
-	float: left;
-	background: white;
-	width: 283px;
-	height: 88px;
-	margin: 5px;
-	margin-left: 8px;
-	padding: 5px 0 5px 5px;
 
-}
 
 .barra-email{
 	margin-bottom: 13px;
