@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Apple Chancery, cursive;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,234,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#topo{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,234,1) 35%, rgba(0,212,255,1) 100%);
+	height: 190px;	
+
+}
+
+#conteudo{
+	width: 950px;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-top: -120px;
+}
+
+#imagem-topo{
+	float: left;
+	width: 15%;
+	margin-left: 60px;
+}
+
+ul{
+	margin-left: 180px;
+	padding: 0;
+	list-style: none;
+	
+}
+
+#topo ul{
+	margin-top: 5px;
+	float: right;
+}
+
+#topo ul li{
+	float: left;
+	
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 2.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 2.5em;
+}
+
+
+#topo ul a:hover{
+	color: #69001d;
+	background: #fff;
+}
+
+#postagem{
+	background: white;
+	padding: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.titulo-postagem{
+	margin-bottom: 5px;
+	font-family: "Brush Script MT", "Brush Script Std", cursive;
+	color: #4682B4;
+}
+
+h2{
+	font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+
+.barra-lateral{
+	float: left;
+	background: white;
+	width: 283px;
+	height: 88px;
+	margin: 5px;
+	margin-left: 8px;
+	padding: 5px 0 5px 5px;
+
+}
+
+.barra-email{
+	margin-bottom: 13px;
+}
+
+
+
+/*NAVEGAÇÃO VERTICAL*/
+
+
+
+
+#navegacao-vertical{
+	margin: 10px -5px;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+
+
+#navegacao-vertical a{
+	width: 288px;
+	height: 40px;
+	display: block;
+	background: #f7b600 url(../imagens/menu.png);
+	color: black;
+	text-decoration: none;
+	text-indent: 45px;
+	line-height: 40px;
+
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: white;
+}
+
+
+
+
+
+/*DEIXAR SELECIONADO PARA USUARIO SE LOCALIZAR*/
+
+
+a:hover, .selecionado a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: white;
+}
+
+
+
+#home #navegacao-vertical .home a,
+#sobre #navegacao-vertical .sobre a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: white;
+}
+
+/*******************************************************/
+
+
+
+
+
+ul a #cadastrar{
+	color: skyblue;
+	background: white;
+	border: 2px solid #db7d00;
+	padding: 3px;
+	text-decoration: none;
+	border-radius: 2.5em;
+	margin-left: 30px;
+
+}
+
+.imagens-conteudo{
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+#conteudo-secundaria{
+
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input{
+	padding: 2.5px;
+}
+
+.rodape{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,234,1) 35%, rgba(0,212,255,1) 100%);
+	text-align: center;
+	padding: 5px;
+	margin: 5px 13px 5px 13px;
+	color: white;
+
+}
+
+/********************	FORMULARIO **********************/
+
+
+
+	#formulario{
+		width: 400px;
+		height: 900px;
+		background-color: rgba(255, 255, 255, 0.3);
+		border-radius: 10px;
+		margin: 0 auto;
+		margin-top: 120px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	#formulario img{
+		width: 120px;
+		height: 120px;
+		margin-top:-60px;
+		margin-bottom: 30px;
+	}
+
+	input{
+		height: 40px ;
+		width: 80%;
+		font-size: 18px;
+		
+		background-color: #fff;
+		padding-left: 40px;
+		border: none;
+		background-repeat: no-repeat;
+		background-position: 10px;
+
+	}
+
+	input.email{
+		background-image: url(../imagens/icone-usuario.png);
+		margin-bottom: 20px;
+	}
+
+	input.senha{
+		background-image: url(../imagens/icone-cadeado.png);
+
+	}
+
+
+	input.submit{
+		color: #fff;
+		background-color: #f79300;
+		border: 2px solid #db7d00;
+		cursor: pointer;
+		padding: 5px 20px;
+		height: 45px;
+		width: 90%;
+
+		background: linear-gradient(to bottom, #faa600, #f68a00);
+	}
+	
+
+	
+
+	.login{
+
+		width: 400px;
+		height: 300px;
+		background-color: rgba(255, 255, 255, 0.3);
+		border-radius: 10px;
+		margin: 30px 400px;
+		
+		text-align: center;
+
+	}
+
+	a.botao{
+
+		color: #fff;
+		background-color: #f79300;
+		border: 2px solid #db7d00;
+		cursor: pointer;
+		padding: 5px 20px;
+		height: 45px;
+		width: 90%;
+		background: linear-gradient(to bottom, #faa600, #f68a00);
+		text-decoration: none;
+
+	}
+
+	.confirma-senha{
+		margin-bottom: 50px;
+	}
+
+	div.esqueci{
+		margin-top: 1px;
+		margin-bottom: 10px;
+		padding-bottom: 20px;
+		font-size: 12px;
+		
+
+	}
+
+	a.voltar{
+		float: left;
+		margin-top: 103px;
+		text-decoration: none;
+		background-color: #f79300;
+		border: 2px solid #db7d00;
+		color: white;
+		border-radius: 0 10px 0 10px;
+		
+	}
+
+	a.voltar_senha{
+		float: left;
+		margin-top: 86px;
+		text-decoration: none;
+		background-color: #f79300;
+		border: 2px solid #db7d00;
+		color: white;
+		border-radius: 0 10px 0 10px;
+		
+	}
+
+	.confirma{
+		margin-top: 50px;
+	}
+
+
+a.botao:hover{
+	border-image: 2px solid red;
+
+}
+
+.titulo-formulario{
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+input.sexo{
+	width: 20px;
+	margin-top: 10px;
+}
+
+
+	/************************************************************************/
+
+
+
+.imagens-conteudo1{
+	width: 25%;
+}
+
+.audiofofoca{
+	width: 95%;
+}
+
+
+
+
+
+
+
+
+
